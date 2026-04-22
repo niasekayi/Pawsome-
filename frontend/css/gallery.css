@@ -1,0 +1,176 @@
+/* Gallery layout controlled by CSS variables so constants.py values are mirrored here */
+:root {
+    --vc-spacing-vertical:   20px;
+    --vc-spacing-horizontal: 20px;
+    --vc-square-size:        220px;
+}
+
+/* ── Grid container ──────────────────────────────── */
+.vc-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--vc-square-size), 1fr));
+    gap: var(--vc-spacing-vertical) var(--vc-spacing-horizontal);
+    padding: 8px 0;
+}
+
+/* ── Individual block ────────────────────────────── */
+.vc-square {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1;
+    border: 2px solid rgba(91, 109, 73, 0.18);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+
+.vc-square:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 28px rgba(12, 60, 1, 0.16);
+}
+
+/* ── Logo image ──────────────────────────────────── */
+.vc-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 22px;
+    transition: opacity 0.28s ease;
+}
+
+.vc-square:hover .vc-logo {
+    opacity: 0.15;
+}
+
+/* ── Hover overlay ───────────────────────────────── */
+.vc-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(12, 60, 1, 0.91);
+    color: #F1F2ED;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 14px;
+    opacity: 0;
+    transition: opacity 0.28s ease;
+    text-align: center;
+}
+
+.vc-overlay.visible {
+    opacity: 1;
+}
+
+/* ── Overlay content ─────────────────────────────── */
+.vc-org-name {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 0.92rem;
+    font-weight: 700;
+    color: #A2AC82;
+    margin-bottom: 8px;
+    line-height: 1.2;
+}
+
+.vc-summary {
+    font-size: 0.76rem;
+    line-height: 1.45;
+    margin-bottom: 14px;
+    opacity: 0.9;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+/* ── Action buttons ──────────────────────────────── */
+.vc-btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 100%;
+}
+
+.vc-btn {
+    display: block;
+    padding: 7px 10px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 6px;
+    text-align: center;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    font-family: 'Inter', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.vc-btn-volunteer {
+    background-color: #A2AC82;
+    color: #0C3C01;
+    border: none;
+}
+.vc-btn-volunteer:hover {
+    background-color: #F1F2ED;
+}
+
+.vc-btn-learn {
+    background-color: transparent;
+    color: #F1F2ED;
+    border: 1px solid rgba(241, 242, 237, 0.45);
+}
+.vc-btn-learn:hover {
+    background-color: rgba(241, 242, 237, 0.12);
+}
+
+/* ── Category badge ──────────────────────────────── */
+.vc-category-badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: #0C3C01;
+    color: #F1F2ED;
+    font-size: 0.62rem;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* ── Loading skeleton ────────────────────────────── */
+.vc-skeleton {
+    aspect-ratio: 1;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #e4e6e0 25%, #edeee9 50%, #e4e6e0 75%);
+    background-size: 200% 100%;
+    animation: vc-shimmer 1.4s infinite;
+}
+
+@keyframes vc-shimmer {
+    0%   { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+/* ── Empty / error state ─────────────────────────── */
+.vc-empty {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 64px 0;
+    color: #5B6D49;
+    font-size: 0.97rem;
+}
+
+/* ── Responsive ──────────────────────────────────── */
+@media (max-width: 600px) {
+    :root {
+        --vc-spacing-vertical:   14px;
+        --vc-spacing-horizontal: 14px;
+        --vc-square-size:        150px;
+    }
+}

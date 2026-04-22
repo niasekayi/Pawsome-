@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawsome – Find Your Volunteer Match</title>
+    <link rel="stylesheet" href="/css/base.css">
+</head>
+<body>
+
+    <!-- ── Navigation ────────────────────────────── -->
+    <header class="navbar">
+        <div class="navbar-inner">
+            <a href="/" class="navbar-brand">
+                <img src="/pawsome-logo.png" alt="Pawsome logo" class="navbar-logo">
+                <span>Pawsome</span>
+            </a>
+            <nav class="navbar-links">
+                <a href="/" class="active">Home</a>
+                <a href="/volunteering">Volunteer</a>
+                <a href="#about">About</a>
+            </nav>
+            <a href="/volunteering" class="btn btn-outline-light">Find Opportunities</a>
+        </div>
+    </header>
+
+    <!-- ── Hero ──────────────────────────────────── -->
+    <section class="hero">
+        <div class="hero-layout">
+            <div class="hero-inner">
+                <p class="hero-eyebrow">Welcome to Pawsome</p>
+                <h1>Find your perfect<br>volunteer match.</h1>
+                <p class="hero-sub">
+                    Connect with meaningful opportunities in your community.
+                    Enter your ZIP code to get started.
+                </p>
+                <form class="hero-zip-form" action="/volunteering" method="get">
+                    <input
+                        type="text"
+                        name="zip"
+                        class="hero-zip-input"
+                        placeholder="Enter your ZIP code"
+                        maxlength="5"
+                        pattern="\d{5}"
+                        inputmode="numeric"
+                        autocomplete="postal-code"
+                    >
+                    <button type="submit" class="btn btn-primary">Find Opportunities</button>
+                </form>
+            </div>
+            <div class="hero-image-wrap">
+                <img src="/front-page-pic.png" alt="Volunteers making a difference" class="hero-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- ── Features ──────────────────────────────── -->
+    <section class="features" id="about">
+        <div class="container">
+            <h2>Why Pawsome?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📍</div>
+                    <h3>Local &amp; Relevant</h3>
+                    <p>Filter by ZIP code to find volunteer opportunities right in your neighborhood.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">✨</div>
+                    <h3>AI-Powered Summaries</h3>
+                    <p>Instantly understand any organization's mission with our AI-generated, volunteer-friendly summaries.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌿</div>
+                    <h3>Every Cause</h3>
+                    <p>Animals, education, environment, health — filter by what matters most to you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── Mission ────────────────────────────────── -->
+    <section class="mission">
+        <div class="container">
+            <div class="mission-inner">
+                <h2>Our Mission</h2>
+                <p>
+                    Pawsome makes volunteering easy. We believe everyone has something to give —
+                    time, skills, or passion. Our platform connects you with organizations that
+                    align with your values, right in your community.
+                </p>
+                <a href="/volunteering" class="btn btn-primary">Start Volunteering</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── Footer ────────────────────────────────── -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Pawsome &mdash; Making a difference, one paw at a time.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,222 @@
+[
+  {
+    "id": "1",
+    "name": "ASPCA",
+    "description": "The American Society for the Prevention of Cruelty to Animals is dedicated to preventing cruelty to animals. We provide local and national leadership in three core areas: caring for pets, serving pets and the people who love them, and working to end animal cruelty.",
+    "summary": null,
+    "logoUrl": "https://logo.clearbit.com/aspca.org",
+    "aboutUrl": "https://www.aspca.org/about-us",
+    "volunteerUrl": "https://www.aspca.org/take-action/volunteer",
+    "zipCodes": ["10001", "10002", "10003", "10004", "10005", "10010", "10011"],
+    "category": "Animals"
+  },
+  {
+    "id": "2",
+    "name": "Humane Society",
+    "description": "The Humane Society of the United States is the nation's most effective animal protection organization, improving the lives of dogs, cats, wild animals and farm animals through education, investigation, litigation, legislation, advocacy and hands-on programs.",
+    "summary": null,
+    "logoUrl": "https://logo.clearbit.com/humanesociety.org",
+    "aboutUrl": "https://www.humanesociety.org/about",
+    "volunteerUrl": "https://www.humanesociety.org/volunteer",
+    "zipCodes": ["10001", "90001", "60601", "77001", "85001", "30301"],
+    "category": "Animals"
+  },
+  {
+    "id": "3",
+    "name": "Best Friends Animal Society",
+    "description": "Best Friends Animal Society runs the nation's largest no-kill animal sanctuary and leads national programs, all working toward a time when every dog and cat in an American shelter can be saved.",
+    "summary": null,
+    "logoUrl": "https://logo.clearbit.com/bestfriends.org",
+    "aboutUrl": "https://bestfriends.org/about",
+    "volunteerUrl": "https://bestfriends.org/volunteer",
+    "zipCodes": ["84741", "90001", "10001", "85001", "77001"],
+    "category": "Animals"
+  },
+  {
+    "id": "4",
+    "name": "World Wildlife Fund",
+    "description": "WWF works in nearly 100 countries to protect wildlife and wild places. We work in collaboration with local communities to conserve natural resources, protect endangered species, and reduce human impact on the environment.",
+    "summary": null,
+    "logoUrl": "https://logo.clearbit.com/worldwildlife.org",
+    "aboutUrl": "https://www.worldwildlife.org/about",
+    "volunteerUrl": "https://www.worldwildlife.org/pages/volunteer",
+    "zipCodes": ["10001", "90001", "60601", "85001", "98101", "20001"],
+    "category": "Animals"
+  },
+  {
+    "id": "5",
+    "name": "Habitat for Humanity",
+    "description": "Habitat for Humanity is a global nonprofit housing organization working in local communities across all 50 states in the U.S. and in approximately 70 countries. Habitat's vision is a world where everyone has a decent place to live.",
+    "summary": null,
+    "logoUrl": "https://logo.clearbit.com/habitat.org",
+    "aboutUrl": "https://www.habitat.org/about",
+    "volunteerUrl": "https://www.habitat.org/volunteer",
+    "zipCodes": ["10001", "90001", "60601", "77001", "85001", "19101", "78201", "92101", "75201", "30301"],
+    "category": "Community"
+  },
+  {
+    "id": "6",
+    "name": "American Red Cross",
+    "description": "The American Red Cross prevents and alleviates human suffering in the face of emergencies by mobilizing the power of volunteers and the generosity of donors. We are a volunteer-led humanitarian organization.",
+    "summary": null,
+    "logoUrl": "https://logo.clearbit.com/redcross.org",
+    "aboutUrl": "https://www.redcross.org/about-us.html",
+    "volunteerUrl": "https://www.redcross.org/volunteer/become-a-volunteer.html",
+    "zipCodes": ["10001", "90001", "60601", "77001", "85001", "19101", "78201", "92101", "75201", "30301", "98101", "20001"],
+    "category": "Community"
+  },
+  {
+    "id": "7",
+    "name": "Feeding America",
+    "description": "Feeding America is a nationwide network of more than 200 food banks that feed more than 46 million people through food pantries, soup kitchens, shelters, and other community-based agencies.",
+    "summary": null,
+    "logoUrl": "https://logo.clearbit.com/feedingamerica.org",
+    "aboutUrl": "https://www.feedingamerica.org/about-us",
+    "volunteerUrl": "https://www.feedingamerica.org/take-action/volunteer",
+    "zipCodes": ["10001", "90001", "60601", "77001", "85001", "19101", "78201", "92101", "75201", "30301", "98101", "20001"],
+    "category": "Community"
+  },
+  {
+    "id": "8",
+    "name": "United Way",
+    "description": "United Way fights for the health, education, and financial stability of every person in every community. We're powered by volunteers, donors, and advocates who believe in the power of community solutions.",
+    "summary": null,
+    "logoUrl": "https://logo.clearbit.com/unitedway.org",
+    "aboutUrl": "https://www.unitedway.org/about",
+    "volunteerUrl": "https://www.unitedway.org/get-involved/volunteer",
+    "zipCodes": ["10001", "90001", "60601", "77001", "85001", "19101", "78201", "92101", "75201", "30301", "98101", "20001"],
+    "category": "Community"
+  },
+  {
+    "id": "9",
+    "name": "Big Brothers Big Sisters",
+    "description": "Big Brothers Big Sisters of America is the largest donor- and volunteer-supported mentoring network in the United States. We provide children facing adversity with strong and enduring, professionally supported one-to-one mentoring relationships.",
+    "summary": null,
+    "logoUrl": "https://logo.clearbit.com/bbbs.org",
+    "aboutUrl": "https://www.bbbs.org/about-us",
+    "volunteerUrl": "https://www.bbbs.org/volunteer",
+    "zipCodes": ["10001", "90001", "60601", "77001", "85001", "19101", "78201", "30301"],
+    "category": "Education"
+  },
+  {
+    "id": "10",
+    "name": "ProLiteracy",
+    "description": "ProLiteracy is the world's largest nongovernmental organization focused solely on adult literacy and basic education. Our network of member programs teaches adults to read, write, compute, and use technology so they can be self-sufficient.",
+    "summary": null,
+    "logoUrl": "https://logo.clearbit.com/proliteracy.org",
+    "aboutUrl": "https://proliteracy.org/about",
+    "volunteerUrl": "https://proliteracy.org/Get-Involved/Volunteer",
+    "zipCodes": ["10001", "60601", "19101", "30301", "98101", "77001"],
+    "category": "Education"
+  },
+  {
+    "id": "11",
+    "name": "Boys & Girls Clubs of America",
+    "description": "Boys & Girls Clubs of America provides safe places, caring mentors, fun and friendship, and high-impact youth development programs during critical non-school hours. Every day our programs help young people reach their full potential.",
+    "summary": null,
+    "logoUrl": "https://logo.clearbit.com/bgca.org",
+    "aboutUrl": "https://www.bgca.org/about-boys-girls-clubs",
+    "volunteerUrl": "https://www.bgca.org/get-involved/volunteer",
+    "zipCodes": ["10001", "90001", "60601", "77001", "85001", "19101", "78201", "92101", "75201", "30301"],
+    "category": "Education"
+  },
+  {
+    "id": "12",
+    "name": "Khan Academy",
+    "description": "Khan Academy is a nonprofit with a mission to provide a free, world-class education for anyone, anywhere. Volunteers help translate content, answer student questions, and support learners around the world.",
+    "summary": null,
+    "logoUrl": "https://logo.clearbit.com/khanacademy.org",
+    "aboutUrl": "https://www.khanacademy.org/about",
+    "volunteerUrl": "https://www.khanacademy.org/contribute",
+    "zipCodes": ["94025", "10001", "90001", "60601", "98101"],
+    "category": "Education"
+  },
+  {
+    "id": "13",
+    "name": "Sierra Club",
+    "description": "The Sierra Club is America's largest and most influential grassroots environmental organization. We work to protect wild places, promote clean energy, and fight climate change through education, advocacy, and volunteer action.",
+    "summary": null,
+    "logoUrl": "https://logo.clearbit.com/sierraclub.org",
+    "aboutUrl": "https://www.sierraclub.org/about",
+    "volunteerUrl": "https://www.sierraclub.org/volunteer",
+    "zipCodes": ["94025", "90001", "10001", "60601", "98101", "85001", "20001"],
+    "category": "Environment"
+  },
+  {
+    "id": "14",
+    "name": "Ocean Conservancy",
+    "description": "Ocean Conservancy is working to protect the ocean from today's greatest global challenges. Together with our partners, we create science-based solutions for a healthy ocean and the wildlife and communities that depend on it.",
+    "summary": null,
+    "logoUrl": "https://logo.clearbit.com/oceanconservancy.org",
+    "aboutUrl": "https://oceanconservancy.org/about-us",
+    "volunteerUrl": "https://oceanconservancy.org/action",
+    "zipCodes": ["92101", "90001", "33101", "10001", "98101", "77001"],
+    "category": "Environment"
+  },
+  {
+    "id": "15",
+    "name": "The Nature Conservancy",
+    "description": "The Nature Conservancy is a global environmental nonprofit working to create a world where people and nature can thrive. We've protected more than 125 million acres of land and thousands of miles of rivers worldwide.",
+    "summary": null,
+    "logoUrl": "https://logo.clearbit.com/nature.org",
+    "aboutUrl": "https://www.nature.org/en-us/about-us",
+    "volunteerUrl": "https://www.nature.org/en-us/get-involved/how-to-help/volunteer",
+    "zipCodes": ["10001", "90001", "60601", "85001", "98101", "75201", "20001"],
+    "category": "Environment"
+  },
+  {
+    "id": "16",
+    "name": "American Cancer Society",
+    "description": "The American Cancer Society is a nationwide voluntary health organization dedicated to eliminating cancer. We fund cancer research, support patients, and advocate for policies that prevent cancer and ensure access to care.",
+    "summary": null,
+    "logoUrl": "https://logo.clearbit.com/cancer.org",
+    "aboutUrl": "https://www.cancer.org/about-us.html",
+    "volunteerUrl": "https://www.cancer.org/involved/volunteer.html",
+    "zipCodes": ["10001", "90001", "60601", "77001", "85001", "19101", "30301", "75201"],
+    "category": "Health"
+  },
+  {
+    "id": "17",
+    "name": "Make-A-Wish Foundation",
+    "description": "Make-A-Wish grants the wishes of children with critical illnesses to enrich the human experience with hope, strength and joy. We rely on volunteers to make each wish come true, from wish granters to fundraisers.",
+    "summary": null,
+    "logoUrl": "https://logo.clearbit.com/wish.org",
+    "aboutUrl": "https://wish.org/about-us",
+    "volunteerUrl": "https://wish.org/about-us/our-volunteers",
+    "zipCodes": ["10001", "90001", "60601", "77001", "85001", "19101", "75201", "30301"],
+    "category": "Health"
+  },
+  {
+    "id": "18",
+    "name": "Meals on Wheels",
+    "description": "Meals on Wheels America is the leadership organization supporting more than 5,000 community-based programs committed to addressing senior hunger and isolation. Volunteers deliver nutritious meals and a friendly face to homebound seniors.",
+    "summary": null,
+    "logoUrl": "https://logo.clearbit.com/mealsonwheelsamerica.org",
+    "aboutUrl": "https://www.mealsonwheelsamerica.org/about",
+    "volunteerUrl": "https://www.mealsonwheelsamerica.org/americalets/volunteer",
+    "zipCodes": ["10001", "90001", "60601", "77001", "85001", "19101", "78201", "92101", "75201", "30301"],
+    "category": "Seniors"
+  },
+  {
+    "id": "19",
+    "name": "AARP Foundation",
+    "description": "AARP Foundation works to end senior poverty by helping vulnerable older adults build economic opportunity and social connectedness. Our volunteers make real differences in the lives of seniors across America.",
+    "summary": null,
+    "logoUrl": "https://logo.clearbit.com/aarp.org",
+    "aboutUrl": "https://www.aarp.org/aarp-foundation",
+    "volunteerUrl": "https://www.aarp.org/aarp-foundation/volunteering",
+    "zipCodes": ["10001", "90001", "60601", "77001", "85001", "19101", "78201", "92101", "75201", "30301", "20001"],
+    "category": "Seniors"
+  },
+  {
+    "id": "20",
+    "name": "VolunteerMatch",
+    "description": "VolunteerMatch is the web's largest volunteer engagement network, connecting people to causes they care about. We help nonprofits recruit skilled volunteers and help volunteers find meaningful opportunities that match their interests.",
+    "summary": null,
+    "logoUrl": "https://logo.clearbit.com/volunteermatch.org",
+    "aboutUrl": "https://www.volunteermatch.org/aboutus",
+    "volunteerUrl": "https://www.volunteermatch.org",
+    "zipCodes": ["94025", "10001", "90001", "60601", "77001", "98101", "20001"],
+    "category": "Community"
+  }
+]
