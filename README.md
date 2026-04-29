@@ -150,6 +150,16 @@ Open **http://localhost:5000** in your browser.
 
 ---
 
+## Pictures of Pawsome Site
+
+![Pawsome screenshot 1](Screenshot 2026-04-29 151803.png)
+
+![Pawsome screenshot 2](Screenshot 2026-04-29 151836.png)
+
+![Pawsome screenshot 3](Screenshot 2026-04-29 151854.png)
+
+---
+
 ## Key Features
 
 - **ZIP-code filtering** with metro-area fallback (3-digit prefix matching)
