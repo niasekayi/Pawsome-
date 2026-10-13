@@ -1,6 +1,6 @@
 from urllib.parse import urlparse
 
-DEFAULT_LOGO = "/logo.jpg"
+DEFAULT_LOGO = "/assets/logo.jpg"
 
 
 def get_logo_url(clearbit_url: str = "", about_url: str = "") -> str:

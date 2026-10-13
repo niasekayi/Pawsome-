@@ -18,11 +18,15 @@ def _load_sample_data() -> List[dict]:
 
 
 def _zip_matches(zip_code: str, org_zip_codes: list) -> bool:
-    """Exact match first; fall back to 3-digit prefix (same metro area)."""
+    """Exact match first; fall back to 2-digit prefix (same metro region).
+
+    Metro areas span more than one 3-digit zip prefix (e.g. LA covers
+    900-908), so a 3-digit fallback missed nearby zips like 90210.
+    """
     if zip_code in org_zip_codes:
         return True
-    prefix = zip_code[:3]
-    return any(z[:3] == prefix for z in org_zip_codes)
+    prefix = zip_code[:2]
+    return any(z[:2] == prefix for z in org_zip_codes)
 
 
 def get_opportunities(zip_code: str, category: Optional[str] = None) -> List[Opportunity]:

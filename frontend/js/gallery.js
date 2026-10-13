@@ -1,4 +1,5 @@
-const FALLBACK_LOGO = "/logo.jpg";
+const FALLBACK_LOGO = "/assets/logo.jpg";
+const MIN_LOGO_DIMENSION = 128;
 
 function createBlock(org) {
     const block = document.createElement("div");
@@ -16,6 +17,15 @@ function createBlock(org) {
     img.alt = org.name;
     img.src = org.logoUrl || FALLBACK_LOGO;
     img.addEventListener("error", () => { img.src = FALLBACK_LOGO; });
+    img.addEventListener("load", () => {
+        // Google's favicon service falls back to whatever small icon a site has
+        // (e.g. 16px) when no high-res one exists, which looks blurry once
+        // stretched to fill the card — swap those out for the fallback logo.
+        if (img.src.endsWith(FALLBACK_LOGO)) return;
+        if (img.naturalWidth < MIN_LOGO_DIMENSION || img.naturalHeight < MIN_LOGO_DIMENSION) {
+            img.src = FALLBACK_LOGO;
+        }
+    });
     block.appendChild(img);
 
     const overlay = createOverlay(org);

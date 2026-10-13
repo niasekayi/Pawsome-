@@ -26,7 +26,7 @@ Pawsome is a cloud-deployed volunteer matching web application that helps users 
 
 1. **User visits the site** — Azure App Service serves the Pawsome frontend (HTML/CSS/JS)
 2. **User enters a ZIP code** — The frontend sends a request to `/api/opportunities?zip=XXXXX`
-3. **Backend filters organizations** — Flask queries the volunteer dataset, matching by ZIP code (exact match, then 3-digit prefix for metro coverage)
+3. **Backend filters organizations** — Flask queries the volunteer dataset, matching by ZIP code (exact match, then 2-digit prefix for metro coverage)
 4. **AI summarization** — For each organization, the OpenAI GPT API generates a short, friendly summary from the full description
 5. **Logo resolution** — The Google Favicon API fetches each organization's brand logo
 6. **Results returned** — Flask sends a JSON response to the frontend
@@ -172,7 +172,8 @@ Open **http://localhost:5000** in your browser.
 
 ## Key Features
 
-- **ZIP-code filtering** with metro-area fallback (3-digit prefix matching)
+- **ZIP-code filtering** with metro-area fallback (2-digit prefix matching)
+
 - **Category filtering** — Animals, Community, Education, Environment, Health, Seniors
 - **AI-generated summaries** via OpenAI GPT (gracefully degrades without API key)
 - **Responsive collage gallery** — adapts to any screen size

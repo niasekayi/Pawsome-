@@ -1,0 +1,10 @@
+{
+  // "name" must match the Worker name in your Cloudflare dashboard.
+  "name": "pawsome",
+  "main": "worker/index.js",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": "./frontend",
+    "binding": "ASSETS"
+  }
+}
